@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+}
+ 
+ label{color: blue;}
+body
+{
+  background-image: url(../homework_HTML_orig/imegs/fon-koshki-12.jpeg); 
+  background-position: bottom;
+  background-attachment: fixed;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+}
+ #h1{text-align: left;
+    padding: 0 0 6px 10px;
+    border-left: 10px solid #5358ee;
+    border-bottom: 2px solid #5358ee;}   
+
+    .wrapper {
+      min-height: 100%;
+      height: auto !important;
+      height: 100%;
+    }
+    .content {
+      padding: 0 0 150px;}
+
+
+#bd{color: rgb(120, 92, 9);}
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+  }
+  
+  ul li {
+    padding-left: 2rem;
+    background-image: url(../homework_HTML_orig/imegs/cat_lap.png);
+    background-position: 0 0;
+    background-size: 15px ;
+    background-repeat: no-repeat;
+  }
+  .footer {
+    background-color: rgba(219, 218, 216, 0.784);
+    box-shadow: inset 0 0 10px 5px rgba(81, 81, 80, 0.7);
+    background-image: url(../homework_HTML_orig/imegs/gratis-png-gato.png);
+    background-size: 5%;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: -100px 0 0 0;
+    height: 100px;
+    position: relative;
+     right: 0;
+     bottom: 0;
+     text-align: center; 
+     width: 100%;   
+     font-size: 90%;
+   }
+
+  .footer h1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+    font-size: 15px;
+    color: #505aef;
+    text-transform: uppercase;
+}
+.pic-1 {
+	z-index: 1;
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+}
+.pic-2 {
+	z-index: 5;
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+}
+.pic-3 {
+	z-index: 3;
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+}
+.pic-4 {
+	z-index: 1;
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+}
